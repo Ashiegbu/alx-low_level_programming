@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-  char c = '0';
+char c = '0';
 
-  while (c <= '9')
-    {
-      putchar(c);
-      c++;
-    }
+while (c <= '9')
+{
+putchar(c);
+c++;
+}
 
-  putchar('\n');
-  return (0);
+putchar('\n');
+return (0);
 }
